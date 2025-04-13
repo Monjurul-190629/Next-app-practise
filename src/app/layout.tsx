@@ -35,6 +35,9 @@ export default function RootLayout({
           <li>
             <Link prefetch={false} href="/About">About</Link>
           </li>
+          <li>
+            <Link href="/Blog">Blog</Link>
+          </li>
         </nav>
         <hr/>
         {children}
